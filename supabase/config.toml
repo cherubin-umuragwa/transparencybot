@@ -1,0 +1,48 @@
+project_id = "xavvqukrbpkcxsmdtrui"
+
+[api]
+enabled = true
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+# no 'enabled' here, CLI manages the database automatically
+
+[studio]
+enabled = true
+
+[inbucket]
+enabled = true
+smtp_port = 54325
+pop3_port = 54326
+
+[storage]
+enabled = true
+file_size_limit = "50MiB"
+
+[auth]
+enabled = true
+site_url = "http://localhost:3000"
+additional_redirect_urls = ["https://loving-*.transparencybotproject.com"]
+jwt_expiry = 3600
+
+[auth.email]
+enable_signup = true
+double_confirm_changes = true
+enable_confirmations = false
+
+[realtime]
+enabled = true
+
+[functions.chatbot]
+verify_jwt = false
+
+[functions.submit-report]
+verify_jwt = false
+
+[functions.detect-anomalies]
+verify_jwt = true
+
+[analytics]
+enabled = false
