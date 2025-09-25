@@ -1,0 +1,124 @@
+{
+  "greetings": {
+    "patterns": [
+      "hello", "hi", "hey", "good morning", "good afternoon", "good evening",
+      "greetings", "salaam", "jambo", "habari", "bonjour", "hola"
+    ],
+    "responses": [
+      "Hello! I'm TransparencyBot, your government transparency assistant. How can I help you track public funds today?",
+      "Hi there! Welcome to TransparencyBot. I can help you find information about government budgets, contracts, and spending. What would you like to know?",
+      "Greetings! I'm here to help you explore government financial data and transparency. What are you curious about?",
+      "Hello! I'm TransparencyBot, designed to make government spending transparent. Ask me about budgets, projects, or contractors.",
+      "Hi! I'm your transparency assistant. I can answer questions about public funds, government contracts, and help you report corruption. How can I assist?",
+      "Welcome! I'm TransparencyBot. I'm here to help citizens like you understand how public money is being spent. What would you like to explore?",
+      "Hello and welcome! I can help you track government spending, find budget information, and even report suspicious activities. What's on your mind?",
+      "Hi there! I'm TransparencyBot, your window into government financial transparency. Ready to explore some public finance data?"
+    ]
+  },
+  "farewells": {
+    "patterns": [
+      "bye", "goodbye", "farewell", "see you", "thanks", "thank you",
+      "that's all", "nothing else", "end", "quit", "exit", "close"
+    ],
+    "responses": [
+      "Goodbye! Remember, transparency is the foundation of good governance. Come back anytime to explore public finances!",
+      "Thank you for using TransparencyBot! Keep asking questions and stay informed about public spending. See you soon!",
+      "Farewell! Your interest in government transparency makes democracy stronger. Come back whenever you need information!",
+      "Goodbye! Remember, every citizen has the right to know how public money is spent. Keep exploring!",
+      "Thank you for your engagement! Transparency and accountability start with informed citizens like you. Take care!",
+      "See you later! Don't forget - you can always report suspicious activities or request more information. Stay vigilant!",
+      "Goodbye! Your commitment to transparency helps build a better society. Feel free to return anytime!",
+      "Thank you for using TransparencyBot! Together, we can make government more transparent and accountable. Until next time!"
+    ]
+  },
+  "capabilities": {
+    "patterns": [
+      "what can you do", "help", "capabilities", "features", "how do you work",
+      "what are you", "what is this", "about", "info", "functionality"
+    ],
+    "responses": [
+      "I can help you with several things:\n\n🔍 **Search & Query**: Ask about budgets, projects, contracts, and spending\n📊 **Budget Information**: Find allocation and spending data by ministry, sector, or district\n🏢 **Contract Details**: Learn about vendors, tender processes, and project outcomes\n📋 **Report Corruption**: Anonymously report suspicious activities or misuse of funds\n📈 **Track Projects**: Monitor project progress and performance scores\n\nTry asking: 'How much was allocated to education?' or 'Show me contracts in Kampala district'",
+      
+      "Here's what I can do for you:\n\n✅ **Budget Tracking**: Find how much money was allocated to different sectors and programs\n✅ **Project Monitoring**: Check project status, timelines, and performance\n✅ **Contract Analysis**: Explore tender awards, vendor information, and contract values\n✅ **Corruption Reporting**: Safely and anonymously report suspicious activities\n✅ **Data Queries**: Answer specific questions about government spending\n\nExample questions: 'What projects are running in Wakiso?' or 'Who got the road construction contract?'",
+      
+      "I'm your government transparency assistant! I can:\n\n🎯 **Answer Budget Questions**: Like 'How much did health sector receive this year?'\n🎯 **Track Public Projects**: Find project details, progress, and outcomes\n🎯 **Monitor Contracts**: See who won tenders and contract performance\n🎯 **Enable Reporting**: Help you report corruption or suspicious spending\n🎯 **Provide Analytics**: Show spending patterns and financial trends\n\nJust ask me about any government spending, project, or contract you're curious about!"
+    ]
+  },
+  "corruption_reporting_advice": {
+    "patterns": [
+      "report corruption", "how to report", "suspicious activity", "fraud",
+      "misuse of funds", "corruption case", "irregular spending", "report case"
+    ],
+    "responses": [
+      "Here's how to report corruption safely:\n\n🔒 **Anonymous Reporting**: Click 'Report Corruption' to start an anonymous report\n📝 **Provide Details**: Include what happened, when, where, and who was involved\n📸 **Add Evidence**: Upload photos, documents, or recordings if you have them\n🆔 **Optional Contact**: You can stay anonymous or provide contact details for follow-up\n📋 **Get Reference**: You'll receive a reference number to track your report\n\n**Remember**: Your safety comes first. Only report what you know and can prove.",
+      
+      "To report corruption effectively:\n\n⚠️ **Be Specific**: Provide exact details - dates, amounts, locations, people involved\n📊 **Document Everything**: Gather receipts, contracts, photos, or other evidence\n🔐 **Stay Safe**: Use our anonymous reporting system to protect your identity\n📞 **Multiple Channels**: You can report through our system or directly to authorities\n⏰ **Act Quickly**: Report suspicious activities as soon as possible\n\n**What to report**: Inflated contracts, ghost workers, missing supplies, kickbacks, or any misuse of public funds.",
+      
+      "Reporting corruption helps everyone:\n\n🛡️ **Your Protection**: Our system keeps you anonymous unless you choose otherwise\n📋 **What We Need**: Description of the incident, estimated amounts involved, evidence if available\n🔍 **Investigation Process**: Reports go to trained auditors who investigate thoroughly\n📈 **Impact**: Your reports help recover public funds and prevent future corruption\n\n**Types of corruption to report**: Procurement fraud, embezzlement, ghost projects, inflated prices, nepotism in contracts, or any suspicious spending patterns."
+    ]
+  },
+  "grateful_messages": {
+    "patterns": [
+      "thank you", "thanks", "appreciate", "grateful", "helpful",
+      "great job", "excellent", "wonderful", "amazing", "good work"
+    ],
+    "responses": [
+      "You're welcome! Your engagement with government transparency is what makes democracy work. Keep asking questions!",
+      "I'm glad I could help! Remember, an informed citizen is a powerful citizen. Keep exploring public finances!",
+      "Thank you for caring about transparency! Your interest in government accountability makes a real difference.",
+      "You're very welcome! Together, we can make government more transparent and accountable to the people.",
+      "Happy to help! Your commitment to understanding public finances strengthens democratic governance.",
+      "Thank you! It's citizens like you who keep government honest and transparent. Keep up the great work!",
+      "I'm pleased to assist! Remember, transparency is not just a right - it's a responsibility we all share.",
+      "You're welcome! Every question you ask and every report you make helps build a more transparent society."
+    ]
+  },
+  "curiosity": {
+    "patterns": [
+      "how does this work", "explain", "tell me more", "interesting",
+      "I want to learn", "show me", "demonstrate", "example"
+    ],
+    "responses": [
+      "Great question! Government transparency works through several layers:\n\n📊 **Budget Allocation**: Money is allocated to ministries and programs\n📋 **Procurement Process**: Contracts are awarded through tenders\n💰 **Fund Disbursement**: Money flows to implementers and contractors\n📈 **Monitoring**: Projects are tracked for performance and compliance\n🔍 **Auditing**: Independent review ensures proper use of funds\n\nI can help you explore any of these areas in detail!",
+      
+      "Here's how public finance transparency works:\n\n🏛️ **Budget Planning**: Government creates annual budgets for different sectors\n📢 **Public Disclosure**: Budget information should be publicly available\n🤝 **Contract Awards**: Tenders are (supposed to be) competitive and transparent\n📊 **Performance Tracking**: Projects are monitored for results and efficiency\n⚖️ **Accountability**: Auditors and citizens can review spending for irregularities\n\nWhat specific area would you like to explore more?",
+      
+      "The transparency ecosystem includes:\n\n🎯 **Data Collection**: Government activities generate financial records\n🔄 **Data Processing**: Information is organized and analyzed for patterns\n👥 **Public Access**: Citizens can query and explore this information\n🚨 **Anomaly Detection**: AI helps identify suspicious spending patterns\n📝 **Citizen Reporting**: People can report corruption they witness\n⚖️ **Investigation**: Authorities investigate reports and take action\n\nI'm here to help you navigate this entire system!"
+    ]
+  },
+  "recommendations": {
+    "patterns": [
+      "recommend", "suggest", "advice", "what should I", "best way",
+      "how can I", "guide me", "next steps"
+    ],
+    "responses": [
+      "Here are my recommendations for effective transparency engagement:\n\n🔍 **Start Local**: Focus on projects and spending in your district or community\n📊 **Regular Monitoring**: Check budget utilization and project progress periodically\n📱 **Stay Informed**: Follow up on tenders and contracts that interest you\n🤝 **Community Engagement**: Share information with neighbors and community groups\n📝 **Document Issues**: Keep records of any irregularities you notice\n🗳️ **Civic Participation**: Use this information to make informed voting decisions",
+      
+      "To maximize your impact on transparency:\n\n⚡ **Be Specific**: When asking questions, be as detailed as possible\n📈 **Track Trends**: Look for patterns in spending and procurement over time\n🔗 **Connect Dots**: Link budget allocations to actual project outcomes\n👥 **Build Networks**: Work with other citizens interested in transparency\n📢 **Share Knowledge**: Help others understand how to access information\n⚖️ **Support Accountability**: Report irregularities and follow up on investigations",
+      
+      "Best practices for transparency advocates:\n\n🎯 **Focus Areas**: Choose specific sectors or regions to monitor consistently\n📅 **Regular Reviews**: Check quarterly reports and annual budget utilizations\n💡 **Ask Smart Questions**: Query both financial and performance data\n🔐 **Protect Sources**: Maintain confidentiality when handling sensitive information\n📊 **Verify Information**: Cross-check data from multiple sources\n🚀 **Take Action**: Use findings to advocate for improvements or report corruption"
+    ]
+  },
+  "fallback_responses": [
+    "I'm not sure I understand that question. I can help you with:\n• Budget information and allocations\n• Project details and progress\n• Contract and vendor information\n• Corruption reporting\n\nTry asking something like 'How much was spent on roads?' or 'Show me education projects'",
+    
+    "Let me help you rephrase that. I specialize in:\n• Government budget queries\n• Public project tracking\n• Contract and tender information\n• Anonymous corruption reporting\n\nCould you ask about a specific budget, project, or spending area?",
+    
+    "I didn't quite catch that. Here's what I'm great at:\n• Finding budget allocations by sector/ministry\n• Tracking project performance and outcomes\n• Showing contract awards and vendor details\n• Helping you report suspicious activities\n\nWhat specific government spending information are you looking for?",
+    
+    "That's not something I can help with directly. My expertise covers:\n• Public finance data and budgets\n• Government project monitoring\n• Procurement and contract information\n• Corruption reporting assistance\n\nTry asking about a particular ministry, project, or financial concern you have."
+  ],
+  "web3_features": {
+    "patterns": [
+      "blockchain", "web3", "crypto", "transparency", "immutable",
+      "verification", "hash", "audit trail", "tamper proof"
+    ],
+    "responses": [
+      "🔗 **Blockchain Integration**: Every major transaction and contract is hashed and stored on blockchain for immutable records\n🔍 **Verification**: You can verify the authenticity of any financial record using blockchain hashes\n📊 **Audit Trail**: Complete transaction history is cryptographically secured\n🛡️ **Tampering Protection**: Data integrity is guaranteed through blockchain anchoring\n\nWould you like to verify a specific transaction or see the blockchain audit trail for a project?",
+      
+      "Our Web3 transparency features include:\n\n⛓️ **Immutable Records**: All budget allocations and payments are blockchain-anchored\n🔐 **Cryptographic Proof**: Each record has a unique hash for verification\n📋 **Smart Contracts**: Automated compliance checking for procurement processes\n🌐 **Decentralized Verification**: Anyone can independently verify government data\n\nThis ensures no one can alter or hide government financial records retroactively!",
+      
+      "Blockchain-powered transparency means:\n\n🔒 **Tamper-Proof Data**: Once recorded, financial data cannot be changed or deleted\n⚡ **Real-time Verification**: Instant verification of any government claim or record\n🌍 **Global Accessibility**: Blockchain records are accessible worldwide\n📈 **Trust Through Technology**: No need to trust institutions - verify everything yourself\n\nEvery contract, payment, and budget item has a permanent, verifiable record on the blockchain!"
+    ]
+  }
+}
