@@ -177,7 +177,7 @@ const ChatPage: React.FC = () => {
                 <div className={`rounded-2xl px-4 py-3 ${
                   message.role === 'user'
                     ? 'bg-primary text-primary-foreground rounded-tr-md'
-                    : 'bg-card border rounded-tl-md'
+                    : 'bg-background border rounded-tl-md'
                 }`}>
                   <p className="text-sm leading-relaxed whitespace-pre-wrap">{message.content}</p>
                   

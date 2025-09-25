@@ -334,8 +334,8 @@ const AuditorDashboard: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary/5 to-accent/5">
       {/* Header */}
-      <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+      <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-card/60">
+        <div className="container mx-auto px-8 py-4 flex items-center justify-between">
           <div>
             <h1 className="text-2xl font-bold text-foreground">Auditor Dashboard</h1>
             <p className="text-muted-foreground">Monitoring Procurement Activities</p>
@@ -353,7 +353,7 @@ const AuditorDashboard: React.FC = () => {
       </header>
 
       {/* Main Content */}
-      <main className="container mx-auto px-4 py-8">
+      <main className="container mx-auto px-12 py-8">
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
           <Card>
