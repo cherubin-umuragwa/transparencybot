@@ -60,8 +60,7 @@
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.9",
-    "zod": "^3.25.76",
-    "transparencybot-tagger": "file:./transparencybot-tagger"
+    "zod": "^3.25.76"
 
   },
   "devDependencies": {
@@ -76,7 +75,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^15.15.0",
-    "transparencybot-tagger": "^1.1.9",
+    "transparencybot-tagger": "file:./transparencybot-tagger",
     "postcss": "^8.5.6",
     "supabase": "^2.45.5",
     "tailwindcss": "^3.4.17",
