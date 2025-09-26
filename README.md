@@ -59,9 +59,7 @@ TransparencyBot directly contributes to **UN Sustainable Development Goals (SDGs
   - `submit-report` → Reporting workflow
 
 ### AI Integration
-- **Hybrid Approach**: Rule-based responses + AI APIs
 - **Knowledge Base**: `chatbot-responses.json` for baseline answers
-- **NLP**: OpenAI API for natural language understanding & typo-tolerance
 - **ML Models**: Embedded anomaly detection algorithms
 
 ### Web3 Integration
@@ -155,14 +153,9 @@ TransparencyBot directly contributes to **UN Sustainable Development Goals (SDGs
 ![Auditor Dashboard](screenshots/auditor-dashboard2.jpeg)
 *Auditor interface with anomaly detection*
 
-### Reporting & Analytics
 ![Auditor Dashboard](screenshots/auditor-dashboard3.jpeg)
 *Auditor interface with report reviewing*
 
-![Report Submission](screenshots/report-submission.jpeg)
-*Reporting interface for citizens*
-
-### Web3 Integration
 ![Procurement-dashboard](screenshots/procurement-dashboard1.jpeg)
 *Procument interface with transactions management*
 
@@ -171,6 +164,12 @@ TransparencyBot directly contributes to **UN Sustainable Development Goals (SDGs
 
 ![Procurement-dashboard](screenshots/procurement-dashboard3.jpeg)
 *Procument interface with vendors management*
+
+### Reporting & Analytics
+
+![Report Submission](screenshots/report-submission.jpeg)
+*Reporting interface for citizens*
+
 
 ## 👩‍🚀 User Journey
 
